@@ -1,11 +1,35 @@
 numberOfTimes= 5
-anyNAme = 'Jt'
-print(f'Hello this is my {numberOfTimes}th program')
+anyName= 'Chuck'
+'''
+#Test 1
+if True== True:
+    print('True is True')
+else:
+    print('This is not true')
+#Test 2
+if True== 'True':
+    print('True is True')
+else:
+    print('This is not true')
+#Test 3
+if 1== 1:
+    print('True is True')
+else:
+    print('This is not true')
+#Test 4
+if 1+1 == 2:
+    print('True is True')
+else:
+    print('This is not true')
+'''
+flag= True
 
-print('hooray' + anyNAme)
-print('here goes another line')
-
-while True:
-    anyNAme= input('What is your name?')
-    print(f'hooray {anyNAme}')
+while flag== True:
+    anyName= input('What is your name? (Type "stop" to stop) ')
+    if anyName.lower()!= "stop":
+        print(f'hooray {anyName}')
+    else:
+        flag= False
+        print('Have a nice day.')
+    
     
